@@ -1,5 +1,6 @@
 {
   "name": "coincsv-backend",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.26.0",
     "dotenv": "^16.0.0",
+    "moment": "^2.29.1",
     "papaparse": "^5.3.1"
   }
 }
